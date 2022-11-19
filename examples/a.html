@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <style>
         div{
@@ -8,18 +7,15 @@
         }
     </style>
   </head>
-  
   <body>
   <div style="width:20px;height:20px;background:black;"></div>
   <script src="../gen.js"></script>
   <script>
-    const circle = new CSSKeyframeGen("aniOne", 20, 16, 0, 0, 1);
+    const kframe = new CSSKeyframeGen("aniOne", 20, 16, 0, 0, 1);
 
-    console.log(circle.keyframe); //Prints the generated keyframe
-
-    console.log(circle.coords); //Prints out the coordinations for every point of the path relative from its current position in pixels;
-
-    circle.write(); //Appends the keyframe to the head tag
+    console.log(kframe.keyframe); //Prints the generated keyframe
+    console.log(kframe.coords); //Prints out the coordinations for every point of the path relative from its current position in pixels;
+    kframe.write(); //Appends the keyframe to the head tag
   </script>
   </body>
 </html>
