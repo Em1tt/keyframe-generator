@@ -23,7 +23,7 @@ element{
 ```js
 new CSSKeyframeGen(Name, Radius, Steps, OffsetX, OffsetY, Rotation);
 ```  
-**Name:** string => The name you will reference with a CSS animation, in order to access the keyframe
+**Name:** string => The name you will reference with a CSS animation, in order to access the keyframe  
 **Radius**: integer => Value in pixels of the rotation radius  
 **Steps**: integer => How many edges does the path have  
 **OffsetX**: integer => Offset on the X axis  
