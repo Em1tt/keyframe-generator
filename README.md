@@ -1,6 +1,8 @@
-# css-animation-generator  
-  
-This code will generate a CSS keyframe for when you want to move an HTML element around in a circle, triangle, square, etc.  
+# keyframe-generator
+
+This code will generate a CSS keyframe for when you want to move an HTML element around in a circle, triangle, square, etc.   
+ 
+https://em1tt.github.io/css-animation-generator/examples/example.html  
 
 > script.js
 ```js
